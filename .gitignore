@@ -1,0 +1,14 @@
+# API Key nicht veröffentlichen
+.env
+
+# Bytecode-Dateien
+__pycache__/
+*.py[cod]
+
+# Temporäre Verzeichnisse
+static/korpus_highlighted/
+*.log
+
+# IDE-spezifisch (optional)
+.vscode/
+.idea/

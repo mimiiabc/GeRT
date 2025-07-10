@@ -1,0 +1,16 @@
+#Beispiel-Struktur für Metadaten
+
+<dokumente>
+    <eintrag>
+        <datei>ABC_1935.pdf</datei>
+        <beschreibung>ABC</beschreibung>
+        <jahr>1935</jahr>
+        <sperrfrist>nein</sperrfrist>
+    </eintrag>
+    <eintrag>
+        <datei>XYZ_1950.pdf</datei>
+        <beschreibung>XYZ</beschreibung>
+        <jahr>1950</jahr>
+        <sperrfrist>ja</sperrfrist>
+    </eintrag>
+</dokumente>
