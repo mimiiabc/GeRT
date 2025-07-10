@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 ---
 
-## Achtung:
+## **Achtung:**
 Dieses Repository enthält aus Speicher- und Lizenzgründen nicht:
 
 Die PDF-Dokumente (static/korpus/)
@@ -56,7 +56,7 @@ static/korpus/PDF-Dateien
 models/flan-t5-small/
 models/paraphrase-MiniLM-L6-v2/
 
-## Starten der App
+## **Starten der App**
 streamlit run app.py
 
 ## Kontakt
