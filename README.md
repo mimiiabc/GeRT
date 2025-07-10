@@ -1,6 +1,6 @@
 # GeRT – Chat zur Kreisgeschichte
 
-GeRT ist ein Retrieval-Augmented-Generation-System (RAG) für Archive, das historische PDF-Dokumente analysiert und archivwissenschaftliche Fragen auf Basis dieser Inhalte beantwortet. Die Anwendung kombiniert moderne Sprachmodelle mit einem semantischen Suchansatz, um archivische Recherche zu unterstützen.
+GeRT ist ein Retrieval-Augmented-Generation (RAG) basiertes Dialogsystem für Archive, das OCR-erkanne PDF-Dokumente analysiert und archivwissenschaftliche Fragen auf Basis dieser Inhalte beantwortet. Die Anwendung kombiniert Information Retrieval mit einem Large Language Model.
 
 ---
 
@@ -14,15 +14,7 @@ GeRT ist ein Retrieval-Augmented-Generation-System (RAG) für Archive, das histo
 ---
 
 ## Projektstruktur
-GeRT/
-├── GeRT.py # Hauptcode
-├── app.py # Streamlit-Oberfläche
-├── requirements.txt # Python-Abhängigkeiten
-├── .env.example # Vorlage für Umgebungsvariablen (API Key)
-├── metadaten.xml # Beispielhafte Metadaten (optional)
-├── static/korpus/ # Lokaler PDF-Korpus (nicht im Repo)
-├── models/ # Lokale Modelle (nicht im Repo)
-└── README.md
+<pre> ```text GeRT/ ├── GeRT.py # Hauptcode ├── app.py # Streamlit-Oberfläche ├── requirements.txt # Python-Abhängigkeiten ├── .env.example # Vorlage für Umgebungsvariablen (API Key) ├── metadaten.xml # Beispielhafte Metadaten (optional) ├── static/korpus/ # Lokaler PDF-Korpus (nicht im Repo) ├── models/ # Lokale Modelle (nicht im Repo) └── README.md ``` </pre>
 
 
 
@@ -60,7 +52,9 @@ models/flan-t5-small/
 models/paraphrase-MiniLM-L6-v2/
 
 ## **Starten der App**
+```bash
 streamlit run app.py
+```
 
 ## Kontakt
 Melanie Weber
