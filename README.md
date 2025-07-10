@@ -40,8 +40,7 @@ python -m venv .venv
 source .venv/bin/activate  # unter Windows: .venv\Scripts\activate```
 
 ## Abhängigkeiten installieren
-```pip install -r requirements.txt
-```
+pip install -r requirements.txt
 
 ---
 
