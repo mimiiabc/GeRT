@@ -70,4 +70,6 @@ streamlit run app.py
 Melanie Weber  
 weber_melanie@outlook.de  
 Projekt im Rahmen des Masterstudiengangs Digital Humanities  
+In Zusammenarbeit mit dem Kreisarchiv Reutlingen  
+https://www.kultur-machen.de/Digitales-Kreisarchiv/GeRT  
 Universität Stuttgart
