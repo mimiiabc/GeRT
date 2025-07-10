@@ -23,3 +23,42 @@ GeRT/
 ├── static/korpus/ # Lokaler PDF-Korpus (nicht im Repo)
 ├── models/ # Lokale Modelle (nicht im Repo)
 └── README.md
+
+
+
+---
+
+## Installation
+
+1. Repository klonen:
+```bash
+git clone https://github.com/mimiiabc/GeRT.git
+cd GeRT
+
+## Virtuelle Umgebung erstellen
+python -m venv .venv
+source .venv/bin/activate  # unter Windows: .venv\Scripts\activate
+
+## Abhängigkeiten installieren
+pip install -r requirements.txt
+
+## Achtung:
+Dieses Repository enthält aus Speicher- und Lizenzgründen nicht:
+
+Die PDF-Dokumente (static/korpus/)
+Die Modell-Dateien (models/)
+
+Bitte füge sie manuell hinzu:
+
+static/korpus/PDF-Dateien
+models/flan-t5-small/
+models/paraphrase-MiniLM-L6-v2/
+
+## Starten der App
+streamlit run app.py
+
+## Kontakt
+Melanie Weber
+weber_melanie@outlook.de
+Projekt im Rahmen des Masterstudiengangs Digital Humanities
+Universität Stuttgart
