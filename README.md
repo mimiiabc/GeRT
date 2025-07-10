@@ -36,8 +36,11 @@ git clone https://github.com/mimiiabc/GeRT.git
 cd GeRT
 ```
 ## Virtuelle Umgebung erstellen
+```bash
 python -m venv .venv
-source .venv/bin/activate  # unter Windows: .venv\Scripts\activate```
+source .venv/bin/activate
+```
+(unter Windows: .venv\Scripts\activate)
 
 ## Abhängigkeiten installieren
 pip install -r requirements.txt
