@@ -33,7 +33,7 @@ GeRT/
 1. Repository klonen:
 ```bash
 git clone https://github.com/mimiiabc/GeRT.git
-cd GeRT```
+cd GeRT´´´
 
 ## Virtuelle Umgebung erstellen
 ```python -m venv .venv
