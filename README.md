@@ -14,7 +14,17 @@ GeRT ist ein Retrieval-Augmented-Generation (RAG) basiertes Dialogsystem für Ar
 ---
 
 ## Projektstruktur
-<pre> ```text GeRT/ ├── GeRT.py # Hauptcode ├── app.py # Streamlit-Oberfläche ├── requirements.txt # Python-Abhängigkeiten ├── .env.example # Vorlage für Umgebungsvariablen (API Key) ├── metadaten.xml # Beispielhafte Metadaten (optional) ├── static/korpus/ # Lokaler PDF-Korpus (nicht im Repo) ├── models/ # Lokale Modelle (nicht im Repo) └── README.md ``` </pre>
+```text
+GeRT/
+├── GeRT.py                     # Hauptcode
+├── app.py                      # Streamlit-Oberfläche
+├── requirements.txt            # Python-Abhängigkeiten
+├── .env.example                # Vorlage für Umgebungsvariablen (API Key)
+├── metadaten.xml              # Beispielhafte Metadaten (optional)
+├── static/korpus/             # Lokaler PDF-Korpus (nicht im Repo)
+├── models/                    # Lokale Modelle (nicht im Repo)
+└── README.md
+```
 
 
 
