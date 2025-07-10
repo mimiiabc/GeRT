@@ -33,22 +33,23 @@ GeRT/
 1. Repository klonen:
 ```bash
 git clone https://github.com/mimiiabc/GeRT.git
-cd GeRT´´´
-
+cd GeRT
+```
 ## Virtuelle Umgebung erstellen
-```python -m venv .venv
+python -m venv .venv
 source .venv/bin/activate  # unter Windows: .venv\Scripts\activate```
 
 ## Abhängigkeiten installieren
-```pip install -r requirements.txt```
+```pip install -r requirements.txt
+```
 
 ---
 
 ## **Achtung:**
 Dieses Repository enthält aus Speicher- und Lizenzgründen nicht:
 
-Die PDF-Dokumente (static/korpus/)
-Die Modell-Dateien (models/)
+- Die PDF-Dokumente (static/korpus/)
+- Die Modell-Dateien (models/)
 
 Bitte füge sie manuell hinzu:
 
