@@ -67,7 +67,7 @@ streamlit run app.py
 ```
 
 ## Kontakt
-Melanie Weber
-weber_melanie@outlook.de
-Projekt im Rahmen des Masterstudiengangs Digital Humanities
+Melanie Weber  
+weber_melanie@outlook.de  
+Projekt im Rahmen des Masterstudiengangs Digital Humanities  
 Universität Stuttgart
