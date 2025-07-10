@@ -42,6 +42,8 @@ source .venv/bin/activate  # unter Windows: .venv\Scripts\activate
 ## Abhängigkeiten installieren
 pip install -r requirements.txt
 
+---
+
 ## Achtung:
 Dieses Repository enthält aus Speicher- und Lizenzgründen nicht:
 
